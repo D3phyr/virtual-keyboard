@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+  body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  textarea{
+      border: black solid 1px;
+      width: 1200px;
+      height: 350px;
+    margin: 50px 0 30px 0;
+
+    
+  }
+
+  .keyboard{
+      display: flex;
+      background-color: rgb(114, 114, 114);
+      padding: 5px;
+      gap: 8px;
+      flex-direction: column;
+      border: black solid 3px;
+      border-radius: 5px;
+  }
+
+  .row{
+      display: flex;
+      gap: 5px;
+  }
+
+.key{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.control{
+  background-color: rgb(29, 29, 29);
+  width: auto;
+  padding: 0 10px;
+}
+
+.Space{
+  width: 300px;
+}
+
+.ShiftLeft,
+.ShiftRight{
+  padding: 0 30px;
+}
+
+.AltLeft,
+.AltRight{
+  padding: 0 10px;
+}
+
+.ControlLeft,
+.ControlRight{
+  padding: 0 15px;
+}
+
+.Enter{
+  padding: 0 25px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.key:hover{
+  background-color: rgb(85, 122, 28);
+}
+
+.active{
+  background-color:  rgb(47, 255, 92);
+  border-radius: 25px;
+
+}
+
+.key:active{
+  background-color: rgb(47, 255, 92);
+  border-radius: 25px;
+}

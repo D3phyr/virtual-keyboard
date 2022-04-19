@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea class="textarea" name="text" id="" cols="30" rows="10" autofocus></textarea>
+    <div class="keyboard">
+        <div class="row">
+            <div class="key Backquote">
+                <div class="rus">
+                    <div class="caseDown">ё</div>
+                    <div class="caps hidden">Ё</div>
+                    <div class="shift hidden">Ё</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">`</div>
+                    <div class="caps hidden">`</div>
+                    <div class="shift hidden">~</div>
+                </div>
+            </div>
+            <div class="key Digit1">
+                <div class="rus">
+                    <div class="caseDown">1</div>
+                    <div class="caps hidden">1</div>
+                    <div class="shift hidden">!</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">1</div>
+                    <div class="caps hidden">1</div>
+                    <div class="shift hidden">!</div>
+                </div>
+            </div>
+            <div class="key Digit2">
+                <div class="rus">
+                    <div class="caseDown">2</div>
+                    <div class="caps hidden">2</div>
+                    <div class="shift hidden">"</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">2</div>
+                    <div class="caps hidden">2</div>
+                    <div class="shift hidden">@</div>
+                </div>
+            </div>
+            <div class="key Digit3">
+                <div class="rus">
+                    <div class="caseDown">3</div>
+                    <div class="caps hidden">3</div>
+                    <div class="shift hidden">№</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">3</div>
+                    <div class="caps hidden">3</div>
+                    <div class="shift hidden">#</div>
+                </div>
+            </div>
+            <div class="key Digit4">
+                <div class="rus">
+                    <div class="caseDown">4</div>
+                    <div class="caps hidden">4</div>
+                    <div class="shift hidden">;</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">4</div>
+                    <div class="caps hidden">4</div>
+                    <div class="shift hidden">$</div>
+                </div>
+            </div>
+            <div class="key Digit5">
+                <div class="rus">
+                    <div class="caseDown">5</div>
+                    <div class="caps hidden">5</div>
+                    <div class="shift hidden">%</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">5</div>
+                    <div class="caps hidden">5</div>
+                    <div class="shift hidden">%</div>
+                </div>
+            </div>
+            <div class="key Digit6">
+                <div class="rus">
+                    <div class="caseDown">6</div>
+                    <div class="caps hidden">6</div>
+                    <div class="shift hidden">:</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">6</div>
+                    <div class="caps hidden">6</div>
+                    <div class="shift hidden">^</div>
+                </div>
+            </div>
+            <div class="key Digit7">
+                <div class="rus">
+                    <div class="caseDown">7</div>
+                    <div class="caps hidden">7</div>
+                    <div class="shift hidden">?</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">7</div>
+                    <div class="caps hidden">7</div>
+                    <div class="shift hidden">&</div>
+                </div>
+            </div>
+            <div class="key Digit8">
+                <div class="rus">
+                    <div class="caseDown">8</div>
+                    <div class="caps hidden">8</div>
+                    <div class="shift hidden">*</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">8</div>
+                    <div class="caps hidden">8</div>
+                    <div class="shift hidden">!*</div>
+                </div>
+            </div>
+            <div class="key Digit9">
+                <div class="rus">
+                    <div class="caseDown">9</div>
+                    <div class="caps hidden">9</div>
+                    <div class="shift hidden">(</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">9</div>
+                    <div class="caps hidden">9</div>
+                    <div class="shift hidden">(</div>
+                </div>
+            </div>
+            <div class="key Digit0">
+                <div class="rus">
+                    <div class="caseDown">0</div>
+                    <div class="caps hidden">0</div>
+                    <div class="shift hidden">)</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">0</div>
+                    <div class="caps hidden">0</div>
+                    <div class="shift hidden">)</div>
+                </div>
+            </div>
+            <div class="key Minus">
+                <div class="rus">
+                    <div class="caseDown">-</div>
+                    <div class="caps hidden">-</div>
+                    <div class="shift hidden">_</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">-</div>
+                    <div class="caps hidden">-</div>
+                    <div class="shift hidden">_</div>
+                </div>
+            </div>
+            <div class="key Equal">
+                <div class="rus">
+                    <div class="caseDown">=</div>
+                    <div class="caps hidden">=</div>
+                    <div class="shift hidden">+</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">=</div>
+                    <div class="caps hidden">=</div>
+                    <div class="shift hidden">+</div>
+                </div>
+            </div>
+            <div class="key control Backspace">
+                <div class="rus">
+                    <div class="caseDown">Backspace</div>
+                    <div class="caps hidden">Backspace</div>
+                    <div class="shift hidden">Backspace</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Backspace</div>
+                    <div class="caps hidden">Backspace</div>
+                    <div class="shift hidden">Backspace</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="key control Tab">
+                <div class="rus">
+                    <div class="caseDown">Tab</div>
+                    <div class="caps hidden">Tab</div>
+                    <div class="shift hidden">Tab</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Tab</div>
+                    <div class="caps hidden">Tab</div>
+                    <div class="shift hidden">Tab</div>
+                </div>
+            </div>
+            <div class="key KeyQ">
+                <div class="rus">
+                    <div class="caseDown">й</div>
+                    <div class="caps hidden">Й</div>
+                    <div class="shift hidden">Й</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">q</div>
+                    <div class="caps hidden">Q</div>
+                    <div class="shift hidden">Q</div>
+                </div>
+            </div>
+            <div class="key KeyW">
+                <div class="rus">
+                    <div class="caseDown">ц</div>
+                    <div class="caps hidden">Ц</div>
+                    <div class="shift hidden">Ц</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">w</div>
+                    <div class="caps hidden">W</div>
+                    <div class="shift hidden">W</div>
+                </div>
+            </div>
+            <div class="key KeyE">
+                <div class="rus">
+                    <div class="caseDown">у</div>
+                    <div class="caps hidden">У</div>
+                    <div class="shift hidden">У</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">e</div>
+                    <div class="caps hidden">E</div>
+                    <div class="shift hidden">E</div>
+                </div>
+            </div>
+            <div class="key KeyR">
+                <div class="rus">
+                    <div class="caseDown">к</div>
+                    <div class="caps hidden">К</div>
+                    <div class="shift hidden">К</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">r</div>
+                    <div class="caps hidden">R</div>
+                    <div class="shift hidden">R</div>
+                </div>
+            </div>
+            <div class="key KeyT">
+                <div class="rus">
+                    <div class="caseDown">е</div>
+                    <div class="caps hidden">Е</div>
+                    <div class="shift hidden">Е</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">t</div>
+                    <div class="caps hidden">T</div>
+                    <div class="shift hidden">T</div>
+                </div>
+            </div>
+            <div class="key KeyY">
+                <div class="rus">
+                    <div class="caseDown">н</div>
+                    <div class="caps hidden">Н</div>
+                    <div class="shift hidden">Н</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">y</div>
+                    <div class="caps hidden">Y</div>
+                    <div class="shift hidden">Y</div>
+                </div>
+            </div>
+            <div class="key KeyU">
+                <div class="rus">
+                    <div class="caseDown">г</div>
+                    <div class="caps hidden">Г</div>
+                    <div class="shift hidden">Г</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">u</div>
+                    <div class="caps hidden">U</div>
+                    <div class="shift hidden">U</div>
+                </div>
+            </div>
+            <div class="key KeyI">
+                <div class="rus">
+                    <div class="caseDown">ш</div>
+                    <div class="caps hidden">Ш</div>
+                    <div class="shift hidden">Ш</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">i</div>
+                    <div class="caps hidden">I</div>
+                    <div class="shift hidden">I</div>
+                </div>
+            </div>
+            <div class="key KeyO">
+                <div class="rus">
+                    <div class="caseDown">щ</div>
+                    <div class="caps hidden">Щ</div>
+                    <div class="shift hidden">Щ</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">o</div>
+                    <div class="caps hidden">O</div>
+                    <div class="shift hidden">O</div>
+                </div>
+            </div>
+            <div class="key KeyP">
+                <div class="rus">
+                    <div class="caseDown">з</div>
+                    <div class="caps hidden">З</div>
+                    <div class="shift hidden">З</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">p</div>
+                    <div class="caps hidden">P</div>
+                    <div class="shift hidden">P</div>
+                </div>
+            </div>
+            <div class="key BracketLeft">
+                <div class="rus">
+                    <div class="caseDown">х</div>
+                    <div class="caps hidden">Х</div>
+                    <div class="shift hidden">Х</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">[</div>
+                    <div class="caps hidden">[</div>
+                    <div class="shift hidden">{</div>
+                </div>
+            </div>
+            <div class="key BracketRight">
+                <div class="rus">
+                    <div class="caseDown">ъ</div>
+                    <div class="caps hidden">Ъ</div>
+                    <div class="shift hidden">Ъ</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">]</div>
+                    <div class="caps hidden">]</div>
+                    <div class="shift hidden">}</div>
+                </div>
+            </div>
+            <div class="key Backslash">
+                <div class="rus">
+                    <div class="caseDown">\</div>
+                    <div class="caps hidden">\</div>
+                    <div class="shift hidden">|</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">\</div>
+                    <div class="caps hidden">\</div>
+                    <div class="shift hidden">|</div>
+                </div>
+            </div>
+            <div class="key control Delete">
+                <div class="rus">
+                    <div class="caseDown">Del</div>
+                    <div class="caps hidden">Del</div>
+                    <div class="shift hidden">Del</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Del</div>
+                    <div class="caps hidden">Del</div>
+                    <div class="shift hidden">Del</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="key control CapsLock">
+                <div class="rus">
+                    <div class="caseDown">CapsLock</div>
+                    <div class="caps hidden">CapsLock</div>
+                    <div class="shift hidden">CapsLock</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">CapsLock</div>
+                    <div class="caps hidden">CapsLock</div>
+                    <div class="shift hidden">CapsLock</div>
+                </div>
+            </div>
+            <div class="key KeyA">
+                <div class="rus">
+                    <div class="caseDown">ф</div>
+                    <div class="caps hidden">Ф</div>
+                    <div class="shift hidden">Ф</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">a</div>
+                    <div class="caps hidden">A</div>
+                    <div class="shift hidden">A</div>
+                </div>
+            </div>
+            <div class="key KeyS">
+                <div class="rus">
+                    <div class="caseDown">ы</div>
+                    <div class="caps hidden">Ы</div>
+                    <div class="shift hidden">Ы</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">s</div>
+                    <div class="caps hidden">S</div>
+                    <div class="shift hidden">S</div>
+                </div>
+            </div>
+            <div class="key KeyD">
+                <div class="rus">
+                    <div class="caseDown">в</div>
+                    <div class="caps hidden">В</div>
+                    <div class="shift hidden">В</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">d</div>
+                    <div class="caps hidden">D</div>
+                    <div class="shift hidden">D</div>
+                </div>
+            </div>
+            <div class="key KeyF">
+                <div class="rus">
+                    <div class="caseDown">а</div>
+                    <div class="caps hidden">А</div>
+                    <div class="shift hidden">А</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">f</div>
+                    <div class="caps hidden">F</div>
+                    <div class="shift hidden">F</div>
+                </div>
+            </div>
+            <div class="key KeyG">
+                <div class="rus">
+                    <div class="caseDown">п</div>
+                    <div class="caps hidden">П</div>
+                    <div class="shift hidden">П</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">g</div>
+                    <div class="caps hidden">G</div>
+                    <div class="shift hidden">G</div>
+                </div>
+            </div>
+            <div class="key KeyH">
+                <div class="rus">
+                    <div class="caseDown">р</div>
+                    <div class="caps hidden">Р</div>
+                    <div class="shift hidden">Р</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">h</div>
+                    <div class="caps hidden">H</div>
+                    <div class="shift hidden">H</div>
+                </div>
+            </div>
+            <div class="key KeyJ">
+                <div class="rus">
+                    <div class="caseDown">о</div>
+                    <div class="caps hidden">О</div>
+                    <div class="shift hidden">О</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">j</div>
+                    <div class="caps hidden">J</div>
+                    <div class="shift hidden">J</div>
+                </div>
+            </div>
+            <div class="key KeyK">
+                <div class="rus">
+                    <div class="caseDown">л</div>
+                    <div class="caps hidden">Л</div>
+                    <div class="shift hidden">Л</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">k</div>
+                    <div class="caps hidden">K</div>
+                    <div class="shift hidden">K</div>
+                </div>
+            </div>
+            <div class="key KeyL">
+                <div class="rus">
+                    <div class="caseDown">д</div>
+                    <div class="caps hidden">Д</div>
+                    <div class="shift hidden">Д</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">l</div>
+                    <div class="caps hidden">L</div>
+                    <div class="shift hidden">L</div>
+                </div>
+            </div>
+            <div class="key Semicolon">
+                <div class="rus">
+                    <div class="caseDown">ж</div>
+                    <div class="caps hidden">Ж</div>
+                    <div class="shift hidden">Ж</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">;</div>
+                    <div class="caps hidden">;</div>
+                    <div class="shift hidden">:</div>
+                </div>
+            </div>
+            <div class="key Quote">
+                <div class="rus">
+                    <div class="caseDown">э</div>
+                    <div class="caps hidden">Э</div>
+                    <div class="shift hidden">Э</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">'</div>
+                    <div class="caps hidden">'</div>
+                    <div class="shift hidden">"</div>
+                </div>
+            </div>
+            <div class="key control Enter">
+                <div class="rus">
+                    <div class="caseDown">Enter</div>
+                    <div class="caps hidden">Enter</div>
+                    <div class="shift hidden">Enter</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Enter</div>
+                    <div class="caps hidden">Enter</div>
+                    <div class="shift hidden">Enter</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="key control ShiftLeft">
+                <div class="rus">
+                    <div class="caseDown">Shift</div>
+                    <div class="caps hidden">Shift</div>
+                    <div class="shift hidden">Shift</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Shift</div>
+                    <div class="caps hidden">Shift</div>
+                    <div class="shift hidden">Shift</div>
+                </div>
+            </div>
+            <div class="key KeyZ">
+                <div class="rus">
+                    <div class="caseDown">я</div>
+                    <div class="caps hidden">Я</div>
+                    <div class="shift hidden">Я</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">z</div>
+                    <div class="caps hidden">Z</div>
+                    <div class="shift hidden">Z</div>
+                </div>
+            </div>
+            <div class="key KeyX">
+                <div class="rus">
+                    <div class="caseDown">ч</div>
+                    <div class="caps hidden">Ч</div>
+                    <div class="shift hidden">Ч</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">x</div>
+                    <div class="caps hidden">X</div>
+                    <div class="shift hidden">X</div>
+                </div>
+            </div>
+            <div class="key KeyC">
+                <div class="rus">
+                    <div class="caseDown">с</div>
+                    <div class="caps hidden">С</div>
+                    <div class="shift hidden">С</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">c</div>
+                    <div class="caps hidden">C</div>
+                    <div class="shift hidden">C</div>
+                </div>
+            </div>
+            <div class="key KeyV">
+                <div class="rus">
+                    <div class="caseDown">м</div>
+                    <div class="caps hidden">М</div>
+                    <div class="shift hidden">М</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">v</div>
+                    <div class="caps hidden">V</div>
+                    <div class="shift hidden">V</div>
+                </div>
+            </div>
+            <div class="key KeyB">
+                <div class="rus">
+                    <div class="caseDown">и</div>
+                    <div class="caps hidden">И</div>
+                    <div class="shift hidden">И</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">b</div>
+                    <div class="caps hidden">B</div>
+                    <div class="shift hidden">B</div>
+                </div>
+            </div>
+            <div class="key KeyN">
+                <div class="rus">
+                    <div class="caseDown">т</div>
+                    <div class="caps hidden">Т</div>
+                    <div class="shift hidden">Т</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">n</div>
+                    <div class="caps hidden">N</div>
+                    <div class="shift hidden">N</div>
+                </div>
+            </div>
+            <div class="key KeyM">
+                <div class="rus">
+                    <div class="caseDown">ь</div>
+                    <div class="caps hidden">Ь</div>
+                    <div class="shift hidden">Ь</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">m</div>
+                    <div class="caps hidden">M</div>
+                    <div class="shift hidden">M</div>
+                </div>
+            </div>
+            <div class="key Comma">
+                <div class="rus">
+                    <div class="caseDown">б</div>
+                    <div class="caps hidden">Б</div>
+                    <div class="shift hidden">Б</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">,</div>
+                    <div class="caps hidden">,</div>
+                    <div class="shift hidden">&lt;</div>
+                </div>
+            </div>
+            <div class="key Period">
+                <div class="rus">
+                    <div class="caseDown">ю</div>
+                    <div class="caps hidden">Ю</div>
+                    <div class="shift hidden">Ю</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">.</div>
+                    <div class="caps hidden">.</div>
+                    <div class="shift hidden">&gt;</div>
+                </div>
+            </div>
+            <div class="key Slash">
+                <div class="rus">
+                    <div class="caseDown">.</div>
+                    <div class="caps hidden">.</div>
+                    <div class="shift hidden">,</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">/</div>
+                    <div class="caps hidden">/</div>
+                    <div class="shift hidden">?</div>
+                </div>
+            </div>
+            <div class="key control ArrowUp">
+                <div class="rus">
+                    <div class="caseDown">▲</div>
+                    <div class="caps hidden">▲</div>
+                    <div class="shift hidden">▲</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">▲</div>
+                    <div class="caps hidden">▲</div>
+                    <div class="shift hidden">▲</div>
+                </div>
+            </div>
+            <div class="key control ShiftRight">
+                <div class="rus">
+                    <div class="caseDown">Shift</div>
+                    <div class="caps hidden">Shift</div>
+                    <div class="shift hidden">Shift</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Shift</div>
+                    <div class="caps hidden">Shift</div>
+                    <div class="shift hidden">Shift</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="key control ControlLeft">
+                <div class="rus">
+                    <div class="caseDown">Ctrl</div>
+                    <div class="caps hidden">Ctrl</div>
+                    <div class="shift hidden">Ctrl</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Ctrl</div>
+                    <div class="caps hidden">Ctrl</div>
+                    <div class="shift hidden">Ctrl</div>
+                </div>
+            </div>
+            <div class="key control MetaLeft">
+                <div class="rus">
+                    <div class="caseDown">Win</div>
+                    <div class="caps hidden">Win</div>
+                    <div class="shift hidden">Win</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Win</div>
+                    <div class="caps hidden">Win</div>
+                    <div class="shift hidden">Win</div>
+                </div>
+            </div>
+            <div class="key control AltLeft">
+                <div class="rus">
+                    <div class="caseDown">Alt</div>
+                    <div class="caps hidden">Alt</div>
+                    <div class="shift hidden">Alt</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Alt</div>
+                    <div class="caps hidden">Alt</div>
+                    <div class="shift hidden">Alt</div>
+                </div>
+            </div>
+            <div class="key control Space">
+                <div class="rus">
+                    <div class="caseDown"></div>
+                    <div class="caps hidden"></div>
+                    <div class="shift hidden"></div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown"></div>
+                    <div class="caps hidden"></div>
+                    <div class="shift hidden"></div>
+                </div>
+            </div>
+            <div class="key control AltRight">
+                <div class="rus">
+                    <div class="caseDown">Alt</div>
+                    <div class="caps hidden">Alt</div>
+                    <div class="shift hidden">Alt</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Alt</div>
+                    <div class="caps hidden">Alt</div>
+                    <div class="shift hidden">Alt</div>
+                </div>
+            </div>
+            <div class="key control ArrowLeft">
+                <div class="rus">
+                    <div class="caseDown">◄</div>
+                    <div class="caps hidden">◄</div>
+                    <div class="shift hidden">◄</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">◄</div>
+                    <div class="caps hidden">◄</div>
+                    <div class="shift hidden">◄</div>
+                </div>
+            </div>
+            <div class="key control ArrowDown">
+                <div class="rus">
+                    <div class="caseDown">▼</div>
+                    <div class="caps hidden">▼</div>
+                    <div class="shift hidden">▼</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">▼</div>
+                    <div class="caps hidden">▼</div>
+                    <div class="shift hidden">▼</div>
+                </div>
+            </div>
+            <div class="key control ArrowRight">
+                <div class="rus">
+                    <div class="caseDown">►</div>
+                    <div class="caps hidden">►</div>
+                    <div class="shift hidden">►</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">►</div>
+                    <div class="caps hidden">►</div>
+                    <div class="shift hidden">►</div>
+                </div>
+            </div>
+            <div class="key control ControlRight">
+                <div class="rus">
+                    <div class="caseDown">Ctrl</div>
+                    <div class="caps hidden">Ctrl</div>
+                    <div class="shift hidden">Ctrl</div>
+                </div>
+                <div class="eng hidden">
+                    <div class="caseDown">Ctrl</div>
+                    <div class="caps hidden">Ctrl</div>
+                    <div class="shift hidden">Ctrl</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
